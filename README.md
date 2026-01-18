@@ -3,7 +3,7 @@
 **A reimagined music player mini-widget with modern glassmorphism design and superior UX**
 
 
-![Groove Widget - Main View](./screenshots/main-view.png)
+![Groove Widget - Main View](./screenshots/main-view.jpg)
 
 > **Note**: This is a UI/UX demonstration mock-up. The player simulates playback visually to showcase the interface improvements - it does not play actual audio files.
 
@@ -46,7 +46,7 @@ Spotify's mini-player has several UX frustrations:
 - Smooth fade-in animations
 - Toggleable with 'L' key
 
-![Lyrics Display](./screenshots/lyrics-view.png)
+![Lyrics Display](./screenshots/lyrics-view.jpg)
 
 ### Quick Queue Preview
 - See upcoming 4 tracks at a glance
@@ -54,7 +54,7 @@ Spotify's mini-player has several UX frustrations:
 - Click any track to skip to it
 - Toggleable with 'Q' key
 
-![Queue Preview](./screenshots/queue-view.png)
+![Queue Preview](./screenshots/queue-view.jpg)
 
 ### Keyboard Shortcuts
 | Key | Action |
