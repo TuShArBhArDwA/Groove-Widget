@@ -1,10 +1,12 @@
-# 🎵 Groove Widget
+# Groove Widget
 
 **A reimagined music player mini-widget with modern glassmorphism design and superior UX**
 
-![Groove Widget Demo](./demo-screenshot.png)
+> **Note**: This is a UI/UX demonstration mock-up. The player simulates playback visually to showcase the interface improvements - it does not play actual audio files.
 
-## 🎯 The Problem
+![Groove Widget - Main View](./screenshots/main-view.png)
+
+## The Problem
 
 Spotify's mini-player has several UX frustrations:
 
@@ -17,59 +19,65 @@ Spotify's mini-player has several UX frustrations:
 | **No shortcuts** | Users discover by accident | Visual keyboard hints on interaction |
 | **Static album art** | Just an image | Dynamic blur background, vinyl animation |
 
-## ✨ Key Features
+## Key Features
 
-### 🎨 Beautiful Glassmorphism Design
+### Beautiful Glassmorphism Design
 - Frosted glass aesthetic with subtle transparency
 - Dynamic background blur based on album art color
 - Smooth animations and micro-interactions
 
-### 🎚️ Enhanced Progress Bar
+![Glassmorphism Design](./screenshots/glassmorphism.png)
+
+### Enhanced Progress Bar
 - Large interactive hit area for precise scrubbing
 - Hover preview tooltip shows time at cursor position
 - Gradient fill with glow effect
 - Click-and-drag seeking
 
-### 📝 Mini Lyrics Display
+### Mini Lyrics Display
 - 3-line scrolling lyrics synced with playback
 - Current line highlighted with subtle glow
 - Smooth fade-in animations
 - Toggleable with 'L' key
 
-### 🎵 Quick Queue Preview
+![Lyrics Display](./screenshots/lyrics-view.png)
+
+### Quick Queue Preview
 - See upcoming 4 tracks at a glance
 - Album art thumbnails for visual recognition  
 - Click any track to skip to it
 - Toggleable with 'Q' key
 
-### ⌨️ Keyboard Shortcuts
+![Queue Preview](./screenshots/queue-view.png)
+
+### Keyboard Shortcuts
 | Key | Action |
 |-----|--------|
 | `Space` | Play/Pause |
-| `←` / `→` | Seek ±10 seconds |
-| `Ctrl+←` / `Ctrl+→` | Previous/Next track |
-| `↑` / `↓` | Volume up/down |
+| `Left Arrow` / `Right Arrow` | Seek 10 seconds |
+| `Ctrl+Left` / `Ctrl+Right` | Previous/Next track |
+| `Up Arrow` / `Down Arrow` | Volume up/down |
 | `M` | Mute/Unmute |
 | `L` | Toggle lyrics |
 | `Q` | Toggle queue |
 | `S` | Toggle shuffle |
 | `R` | Cycle repeat mode |
 
-### 🎭 Delightful Interactions
+### Delightful Interactions
 - Play button pulses when playing
 - Album art shows spinning vinyl in background
 - Heart icon animates on like
 - Progress bar expands on hover
 - Smooth track transitions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18** - UI framework
 - **Vite** - Build tool for fast development
 - **Vanilla CSS** - Pure CSS with variables for design tokens
 - **No external UI libraries** - Everything built from scratch
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Install dependencies
@@ -82,7 +90,7 @@ npm run dev
 npm run build
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -101,37 +109,26 @@ src/
 └── index.css              # Design system & global styles
 ```
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 1. **Progressive Disclosure** - Show essential info, reveal more on interaction
 2. **Micro-interactions** - Every action feels responsive and delightful
 3. **Accessibility** - Large touch targets, keyboard navigation, screen reader support
 4. **Performance** - CSS animations for smooth 60fps, minimal re-renders
 
-## 📸 Screenshots
-
-### Default State
-The widget shows album art, track info, progress bar, playback controls, and synced lyrics.
-
-### Queue View
-Toggle 'Q' to see upcoming tracks with album thumbnails.
-
-### Responsive Design
-Works beautifully on mobile with reorganized layout.
-
-## 🤔 Why This Matters
+## Why This Matters
 
 Music players are deeply personal tools we interact with daily. Small UX improvements compound into significant delight:
 
-- **1 second saved** per interaction × **50 interactions/day** = **25+ minutes/month**
+- **1 second saved** per interaction x **50 interactions/day** = **25+ minutes/month**
 - **Visual polish** creates emotional connection with the product
 - **Keyboard shortcuts** empower power users
 - **Responsive design** ensures consistent experience everywhere
 
-## 📝 License
+## License
 
 MIT License - feel free to use this as inspiration for your own projects!
 
 ---
 
-Built with ❤️ to demonstrate what thoughtful UI/UX engineering looks like.
+Made with love by [Tushar Bhardwaj](https://www.linkedin.com/in/bhardwajtushar2004/)

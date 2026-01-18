@@ -67,6 +67,19 @@ function App() {
           <span>Mute</span>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="app-footer">
+        made with 💙 by{' '}
+        <a 
+          href="https://www.linkedin.com/in/bhardwajtushar2004/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Tushar Bhardwaj
+        </a>
+      </footer>
     </>
   );
 }
