@@ -2,9 +2,13 @@
 
 **A reimagined music player mini-widget with modern glassmorphism design and superior UX**
 
-> **Note**: This is a UI/UX demonstration mock-up. The player simulates playback visually to showcase the interface improvements - it does not play actual audio files.
 
 ![Groove Widget - Main View](./screenshots/main-view.png)
+
+> **Note**: This is a UI/UX demonstration mock-up. The player simulates playback visually to showcase the interface improvements - it does not play actual audio files.
+
+
+---
 
 ## The Problem
 
@@ -18,6 +22,8 @@ Spotify's mini-player has several UX frustrations:
 | **Cramped controls** | Small buttons, no feedback | Large touch targets with micro-animations |
 | **No shortcuts** | Users discover by accident | Visual keyboard hints on interaction |
 | **Static album art** | Just an image | Dynamic blur background, vinyl animation |
+
+---
 
 ## Key Features
 
@@ -70,12 +76,17 @@ Spotify's mini-player has several UX frustrations:
 - Progress bar expands on hover
 - Smooth track transitions
 
+---
+
 ## Tech Stack
 
 - **React 18** - UI framework
 - **Vite** - Build tool for fast development
 - **Vanilla CSS** - Pure CSS with variables for design tokens
 - **No external UI libraries** - Everything built from scratch
+
+---
+
 
 ## Getting Started
 
@@ -89,6 +100,10 @@ npm run dev
 # Build for production
 npm run build
 ```
+
+
+---
+
 
 ## Project Structure
 
@@ -109,12 +124,16 @@ src/
 └── index.css              # Design system & global styles
 ```
 
+---
+
 ## Design Philosophy
 
 1. **Progressive Disclosure** - Show essential info, reveal more on interaction
 2. **Micro-interactions** - Every action feels responsive and delightful
 3. **Accessibility** - Large touch targets, keyboard navigation, screen reader support
 4. **Performance** - CSS animations for smooth 60fps, minimal re-renders
+
+---
 
 ## Why This Matters
 
@@ -125,10 +144,27 @@ Music players are deeply personal tools we interact with daily. Small UX improve
 - **Keyboard shortcuts** empower power users
 - **Responsive design** ensures consistent experience everywhere
 
-## License
+---
 
-MIT License - feel free to use this as inspiration for your own projects!
+## Sponsor
+
+If you find this helpful, consider supporting me:
+
+- **Sponsor Me:** [Buy Me a Coffee!](https://github.com/sponsors/TuShArBhArDwA)
 
 ---
 
-Made with love by [Tushar Bhardwaj](https://linktr.ee/codewithtusharbhardwaj)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+- **Meet T-Bot** - [Discover My Work](https://t-bot-blush.vercel.app/)
+- **Tushar Bhardwaj** - [Portfolio](https://tushar-bhardwaj.vercel.app/)
+- **Connect 1:1** - [Topmate](https://topmate.io/tusharbhardwaj)
+- **GitHub:** [TuShArBhArDwA](https://github.com/TuShArBhArDwA)
+- **LinkedIn:** [Tushar Bhardwaj](https://www.linkedin.com/in/bhardwajtushar2004/)
+- **Email:** [tusharbhardwaj2617@example.com](mailto:tusharbhardwaj2617@example.com)
