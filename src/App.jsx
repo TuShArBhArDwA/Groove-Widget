@@ -1,31 +1,10 @@
-import { useState, useEffect } from 'react';
+
 import MusicPlayer from './components/MusicPlayer';
 
 function App() {
-  const [showHints, setShowHints] = useState(false);
+  // Keyboard shortcuts are always visible
+  const showHints = true;
 
-  // Show keyboard hints on first hover
-  useEffect(() => {
-    const handleMouseMove = () => {
-      setShowHints(true);
-      // Hide after a few seconds
-      setTimeout(() => setShowHints(false), 5000);
-    };
-    
-    window.addEventListener('mousemove', handleMouseMove, { once: true });
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
-
-  // Show hints on any key press
-  useEffect(() => {
-    const handleKeyDown = () => {
-      setShowHints(true);
-      setTimeout(() => setShowHints(false), 3000);
-    };
-    
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
 
   return (
     <>
