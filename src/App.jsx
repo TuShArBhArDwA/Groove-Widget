@@ -72,7 +72,7 @@ function App() {
       <footer className="app-footer">
         made with 💙 by{' '}
         <a 
-          href="https://www.linkedin.com/in/bhardwajtushar2004/" 
+          href="https://linktr.ee/codewithtusharbhardwaj" 
           target="_blank" 
           rel="noopener noreferrer"
           className="footer-link"
